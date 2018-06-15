@@ -1,0 +1,48 @@
+h1 {
+  font-size: 32px;
+  font-family: Oswald;
+  font-weight: 400;
+  margin-left: 64px;
+  padding-top: 64px;
+}
+
+h2 {
+  margin-left: 64px;
+  color: #333333;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+
+a {
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 64px;
+}
+
+p {
+  margin-left: 64px;
+  font-family: Montserrat;
+  font-weight: normal;
+  line-height: 24px;
+  color: #333333;
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+img {
+  src: jessi.png;
+  width: 33%;
+  margin-left: 64px;
+}
+
+.gridbilder{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body{
+  margin-bottom: 120px;
+}
