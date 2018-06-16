@@ -2,15 +2,21 @@ h1 {
   font-size: 32px;
   font-family: Oswald;
   font-weight: 400;
-  margin-left: 64px;
-  padding-top: 64px;
+  /* padding-top: 64px; */
 }
 
 h2 {
-  margin-left: 64px;
+  font-family: Oswald;
+  font-size: 24px;
   color: #333333;
   margin-top: 64px;
   margin-bottom: 32px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #333333;
+  font-family: Montserrat;
 }
 
 
@@ -19,30 +25,121 @@ a {
   font-family: Montserrat;
   font-weight: bold;
   color: #333333;
-  margin-left: 64px;
+  margin-left: 40px;
 }
 
 p {
-  margin-left: 64px;
   font-family: Montserrat;
   font-weight: normal;
   line-height: 24px;
   color: #333333;
-  width: 60%;
+  width: 80%;
   padding-bottom: 40px;
 }
 
 img {
-  src: jessi.png;
-  width: 33%;
-  margin-left: 64px;
+  width: 32.3%;
 }
 
-.gridbilder{
+.logobild {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 8px;
+  /* width: 3%; */
+}
+
+.gridbilder {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-body{
+.gridblock {
+margin-top: 40px;
+}
+
+body {
   margin-bottom: 120px;
+  margin-left: 64px;
+  margin-top: 48px;
+  margin-right: 64px;
+}
+
+.bildochtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.textbox {
+  align-items: flex-start;
+  margin-left: 64px;
+  justify-content: flex-start;
+}
+
+.sidhuvud {
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoochfagel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menyingangar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.illustrationjessi {
+  border-radius: 50%;
+}
+
+.cirklar {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.cirkel {
+  background-color: #333333;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.cirkeltext {
+  margin-right: 64px;
+}
+
+/* .sidfot {
+  display: flex;
+  height: 200px;
+  background-color:#d2e2e3;
+  width: 100%;
+} */
+
+.socialalankar {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+
+@media (max-width: 700px){
+
 }
