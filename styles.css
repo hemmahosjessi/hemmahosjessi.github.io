@@ -56,6 +56,11 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+/* .gridbilder_2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
 
 .gridblock {
 margin-top: 40px;
@@ -120,6 +125,48 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 100px;
+}
+
+.cirkeltext {
+  margin-right: 64px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #333333;
+}
+
+
+.centered {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  width: 100%;
+  height: auto;
+  background-color: rgba(255,255,255,0.7);
+  color:: #ffffff;
+}
+
+.centered h2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.gridbild {
+  width: 100%;
+}
+
+.gridblock_2 {
+  margin-top: 40px;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mindesign {
+  margin-top: 64px;
 }
 
 .cirkeltext {
